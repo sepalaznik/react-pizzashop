@@ -1,0 +1,32 @@
+.categories ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.categories ul li {
+    background-color: rgb(249, 249, 249);
+    padding: 12px 24px;
+    border-radius: 30px;
+    margin: 4px 10px 4px 0;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.categories ul li:hover {
+    background-color: rgb(244, 244, 244);
+}
+.categories ul li:active {
+    background-color: rgb(236, 236, 236);
+}
+.categories ul li.active {
+    background-color: rgb(40, 40, 40);
+    color: rgb(255, 255, 255);
+}
