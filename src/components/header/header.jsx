@@ -1,6 +1,7 @@
-import React from "react";
+﻿import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+
 import { Button } from "../button/button.jsx";
 import "./header.css";
 
@@ -15,7 +16,7 @@ export function Header() {
             <div className="container">
                 <Link to="/">
                     <div className="header__logo">
-                        <img width="52" src="../src/images/shop-logo.svg" alt="MyReactShop Logo" />
+                        <img width="52" src="../../images/shop-logo.svg" alt="My Shop Logo" />
                         <div>
                             <h1>My React Shop</h1>
                             <p>самый большой выбор товаров во вселенной</p>

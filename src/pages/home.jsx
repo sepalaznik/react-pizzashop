@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
+
 import { Categories } from "../components/categories/categories.jsx";
 import { SortPopup } from "../components/categories/sort-popup.jsx";
 import { GoodsBox } from "../components/goods-box/goods-box.jsx";

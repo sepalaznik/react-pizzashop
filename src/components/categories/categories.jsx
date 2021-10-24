@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
+
 import "./categories.css";
 
 export const Categories = React.memo(function Categories({activeCategory, items, onClickCategory}) {

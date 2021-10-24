@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+
 import { CartItem } from "../components/cart-item/cart-item.jsx";
 import { Button } from "../components/button/button.jsx";
 import { clearCart, removeCartItem, cartItemPlus, cartItemMinus } from "../store/actions/cart.js";
@@ -35,8 +36,11 @@ export function Cart() {
     };
     
     const handleClickOrder = () => {
-        console.log('ВАШ ЗАКАЗ', items);
-    }; // виртуальный чек заказа (для продакшена надо добавить реальную оплату, автоматическую очистку корзины и возврат на главную страницу)
+        console.log("ЗАКАЗ:", items);
+        alert("ВАШ ЗАКАЗ ПЕРЕДАН НА КУХНЮ ДЛЯ ПРИГОТОВЛЕНИЯ!");
+        dispatch(clearCart());
+    }; 
+    // виртуальный чек заказа, автоматическая очистка корзины и возврат на главную страницу :) Для продакшена заменяеться на модуль реальной оплаты
 
     return (
         <div className="container container--cart">
@@ -133,9 +137,11 @@ export function Cart() {
                                         <span>Вернуться назад</span>
                                     </Button>
                                 </Link>
+                                <Link to="/">
                                 <Button onClick={handleClickOrder} className="pay-btn" outline>
                                     <span>Оплатить заказ</span>
-                                </Button>    
+                                </Button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -143,13 +149,13 @@ export function Cart() {
                 : (
                     <div className="cart cart--empty">
                         <h2>
-                            Ваша корзина пустая 
-                            <img width="24" height="24" src="./src/images/sad-smile-icon.svg" alt="Your cart is empty" />
+                            Ваша корзина пустая&nbsp; 
+                            <img width="24" height="24" src="../images/sad-smile-icon.svg" alt="Your cart is empty" />
                         </h2>
                         <p>Вы ещё не выбрали товар!<br />
                             Для того, чтобы выбрать товар, перейдите на главную страницу.
                         </p>
-                        <img width="320" src="./src/images/empty-shop-cart.svg" alt="Empty cart" />
+                        <img width="320" src="../images/empty-shop-cart.svg" alt="Empty cart" />
                         <Link to="/">
                             <Button className="button--black">
                                 <span>Вернуться на главную страницу</span>

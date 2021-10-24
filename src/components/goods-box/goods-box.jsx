@@ -1,6 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import PropTypes from 'prop-types';
+
 import "./goods-box.css";
 import { Button } from "../button/button.jsx"
 

@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
+
 import "./sort-popup.css";
 
 export const SortPopup = React.memo(function SortPopup({items, activeSortType, onClickSortType}) {
