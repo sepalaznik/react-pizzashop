@@ -222,6 +222,16 @@
         },
         {
             "id": 22,
+            "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/26e1d3debfa64ce18ce6574fd6ee9cc9_584x584.jpeg",
+            "name": "Аррива",
+            "types": [ 0, 1 ],
+            "sizes": [ 24, 40 ],
+            "price": 7.3,
+            "category": 3,
+            "rating": 6
+        },
+        {
+            "id": 23,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/0490a9acbf184634b155aa839faa13d4_584x584.jpeg",
             "name": "Диабло",
             "types": [ 0, 1 ],
