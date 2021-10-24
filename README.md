@@ -26,7 +26,7 @@ The page will reload if you make edits. You will also see any lint errors in the
 - Runs the app in the development mode on the port "http://localhost:3000".
 For work this app need runs the fake json-server as the second process.
 
-### npm run json-server
+### npm run json-server \
 ### npm run server
 - Runs the fake json-server for work with the build, or to test the app in development mode.
 Open "http://localhost:3001/goods" to view it in the browser.
