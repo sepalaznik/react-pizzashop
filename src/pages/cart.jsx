@@ -150,12 +150,12 @@ export function Cart() {
                     <div className="cart cart--empty">
                         <h2>
                             Ваша корзина пустая&nbsp; 
-                            <img width="24" height="24" src="../images/sad-smile-icon.svg" alt="Your cart is empty" />
+                            <img width="24" height="24" src="../public/images/sad-smile-icon.svg" alt="Your cart is empty" />
                         </h2>
                         <p>Вы ещё не выбрали товар!<br />
                             Для того, чтобы выбрать товар, перейдите на главную страницу.
                         </p>
-                        <img width="320" src="../images/empty-shop-cart.svg" alt="Empty cart" />
+                        <img width="320" src="../public/images/empty-shop-cart.svg" alt="Empty cart" />
                         <Link to="/">
                             <Button className="button--black">
                                 <span>Вернуться на главную страницу</span>

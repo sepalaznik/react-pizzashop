@@ -7,7 +7,7 @@
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
             "price": 8.00,
-            "category": 3,
+            "category": 1,
             "rating": 4
         },
         {
@@ -199,6 +199,36 @@
             "price": 7.8,
             "category": 4,
             "rating": 5
+        },
+        {
+            "id": 20,
+            "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/9ab9494fb4c84dc2a545e82e719230a4_584x584.jpeg",
+            "name": "Деревенская",
+            "types": [ 0, 1 ],
+            "sizes": [ 24, 32, 40 ],
+            "price": 6.1,
+            "category": 2,
+            "rating": 5
+        },
+        {
+            "id": 21,
+            "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/20734006e66d427fb2cbb8fbb595b21e_584x584.jpeg",
+            "name": "Колбаски барбекю",
+            "types": [ 0, 1 ],
+            "sizes": [ 24, 32, 40 ],
+            "price": 9.1,
+            "category": 3,
+            "rating": 9
+        },
+        {
+            "id": 22,
+            "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/0490a9acbf184634b155aa839faa13d4_584x584.jpeg",
+            "name": "Диабло",
+            "types": [ 0, 1 ],
+            "sizes": [ 24, 32, 40 ],
+            "price": 8.2,
+            "category": 3,
+            "rating": 7
         }
     ]
 }
