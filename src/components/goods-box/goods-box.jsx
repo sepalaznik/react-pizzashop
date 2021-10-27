@@ -1,11 +1,12 @@
 import React from "react";
 import classNames from "classnames";
 import PropTypes from 'prop-types';
+import ReactTooltip from 'react-tooltip';
 
 import "./goods-box.css";
 import { Button } from "../button/button.jsx"
 
-export const GoodsBox = ({ id, imageUrl, name, types, sizes, price, numberInCount, onClickAddGoods }) => {
+export const GoodsBox = ({ id, imageUrl, text, name, types, sizes, price, numberInCount, onClickAddGoods }) => {
     const availableTypes = [ "тонкое", "традиционное" ];
     const availableSizes = [ 24, 32, 40 ];
 
@@ -34,10 +35,19 @@ export const GoodsBox = ({ id, imageUrl, name, types, sizes, price, numberInCoun
 
     return (
         <div className="goods-box">
-            <img
-                className="goods-box__image"
-                src={imageUrl}
-                alt="Our Goods" />
+            <div data-tip={text}>
+                <img
+                    className="goods-box__image"
+                    src={imageUrl}
+                    alt="Our Goods" />
+                <ReactTooltip 
+                    backgroundColor="rgb(255, 241, 205)" 
+                    delayShow={400}
+                    border 
+                    borderColor="rgb(40, 40, 40)" 
+                    textColor="rgb(0, 0, 0)" 
+                    multiline />
+            </div> 
             <h4 className="goods-box__title">{name}</h4>
             <div className="goods-box__selector">
                 <ul>

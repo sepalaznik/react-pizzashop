@@ -23,12 +23,12 @@ Open "http://localhost:3000" to view app in the browser.
 The page will reload if you make edits. You will also see any lint errors in the console.
 
 ### npm run dev
-- Runs the app in the development mode on the port "http://localhost:3000".
+- Runs only the app in the development mode on the port "http://localhost:3000".
 For work this app need runs the fake json-server as the second process.
 
 ### npm run json-server
 ### npm run server
-- Runs the fake json-server for work with the build, or to test the app in development mode.
+- Runs only the fake json-server to test the app in development mode, to work server with the build, and for deploy the app.
 Open "http://localhost:3001/goods" to view it in the browser.
 
 ### npm run build
@@ -36,3 +36,5 @@ Open "http://localhost:3001/goods" to view it in the browser.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 The build is minified and the filenames include the hashes. Your app is ready to be deployed!
 For the build to work correctly, need runs the fake json-server.
+
+** Deploy does not work, due to the impossibility of installing a new version node.js with Win 7 :(

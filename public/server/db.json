@@ -3,6 +3,7 @@
         {
             "id": 0,
             "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+            "text": "Пикантная пепперони, <br/>увеличенная порция моцареллы, <br/>томаты, томатный соус",
             "name": "Пепперони Фреш",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -13,6 +14,7 @@
         {
             "id": 1,
             "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+            "text": "Моцарелла, <br/>сыры чеддер и пармезан, <br/>соус альфредо",
             "name": "Сырная",
             "types": [ 0, 1 ],
             "sizes": [ 24, 40 ],
@@ -23,6 +25,7 @@
         {
             "id": 2,
             "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+            "text": "Цыпленок, <br/>бекон, <br/>соус барбекю, <br/>красный лук, <br/>моцарелла, <br/>томатный соус",
             "name": "Цыпленок барбекю",
             "types": [ 0, 1 ],
             "sizes": [ 24, 40 ],
@@ -33,6 +36,7 @@
         {
             "id": 3,
             "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+            "text": "Цыпленок, <br/>моцарелла, <br/>сыры чеддер и пармезан, <br/>сырный соус, <br/>томаты, <br/>соус альфредо, <br/>чеснок",
             "name": "Нежный цыпленок",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -43,6 +47,7 @@
         {
             "id": 4,
             "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+            "text": "Мясной соус болоньезе, <br/>соус бургер, <br/>соленые огурчики, <br/>томаты, <br/>красный лук, <br/>моцарелла",
             "name": "Чизбургер-пицца",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -53,6 +58,7 @@
         {
             "id": 5,
             "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
+            "text": "Пикантная пепперони, <br/>цыпленок, <br/>моцарелла, <br/>томатный и кисло-сладкий соус",
             "name": "Крэйзи пепперони",
             "types": [ 0 ],
             "sizes": [ 24, 32, 40 ],
@@ -63,6 +69,7 @@
         {
             "id": 6,
             "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+            "text": "Пикантная пепперони, <br/>моцарелла, <br/>томатный соус",
             "name": "Пепперони",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -73,6 +80,7 @@
         {
             "id": 7,
             "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+            "text": "Итальянские травы, <br/>моцарелла, <br/>томаты, <br/>томатный соус",
             "name": "Маргарита",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -83,6 +91,7 @@
         {
             "id": 8,
             "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
+            "text": "Итальянские травы, <br/>томатный соус, <br/>томаты, <br/>пикантная пепперони, <br/>кубики брынзы, <br/>моцарелла, <br/>ветчина, <br/>шампиньоны",
             "name": "Четыре сезона",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -93,6 +102,7 @@
         {
             "id": 9,
             "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
+            "text": "Итальянские травы, <br/>томатный соус, <br/>томаты, <br/>кубики брынзы, <br/>маслины, <br/>красный лук, <br/>сладкий перец, <br/>моцарелла, <br/>шампиньоны",
             "name": "Овощи и грибы",
             "types": [ 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -103,6 +113,7 @@
         {
             "id": 10,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/2526fb7e2bde48539be324571dbf81b6_584x584.jpeg",
+            "text": "Ветчина, <br/>ананасы, <br/>моцарелла, <br/>томатный соус",
             "name": "Гавайская",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -113,6 +124,7 @@
         {
             "id": 11,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/acf387b2-273b-41ab-82c8-d648ae4793cd.jpg",
+            "text": "Ананасы, <br/>молоко сгущеное, <br/>брусника",
             "name": "Фруктовый пирог",
             "types": [ 1 ],
             "sizes": [ 24, 32 ],
@@ -123,6 +135,7 @@
         {
             "id": 12,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/71bc4320-5e40-4b9a-b708-9e24487bb020.jpg",
+            "text": "Острый цыпленок, <br/>острый перец халапеньо, <br/>соус сальса, <br/>томаты, <br/>сладкий перец, <br/>красный лук, <br/>моцарелла, <br/>томатный соус",
             "name": "Мексиканская",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -133,6 +146,7 @@
         {
             "id": 13,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/b48d21b36c664a9186a8c7c081741f23_584x584.jpeg",
+            "text": "Лосось, <br/>томаты, <br/>соус песто, <br/>моцарелла, <br/>соус альфредо",
             "name": "Нежный лосось",
             "types": [ 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -143,6 +157,7 @@
         {
             "id": 14,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/68c66460-5054-4227-8ecf-274bb4874fe2.jpg",
+            "text": "Двойная порция пепперони, <br/>моцарелла, <br/>томатный соус",
             "name": "Двойная пепперони",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -153,6 +168,7 @@
         {
             "id": 15,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/f208077ef1364c1ca2f11aad875c0fb7_584x584.jpeg",
+            "text": "Бекон, <br/>сыры чеддер и пармезан, <br/>моцарелла, <br/>томаты, <br/>красный лук, <br/>чеснок, <br/>соус альфредо, <br/>итальянские травы",
             "name": "Карбонара",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -163,6 +179,7 @@
         {
             "id": 16,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/f2e043398dad4bd5b42f4ef1990439c2_584x584.jpeg",
+            "text": "Сыр блю чиз, <br/>сыры чеддер и пармезан, <br/>моцарелла, <br/>соус альфредо",
             "name": "Четыре сыра",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -173,6 +190,7 @@
         {
             "id": 17,
             "imageUrl": "https://roosters-pizza.ru/wa-data/public/shop/products/29/00/29/images/951/951.970.jpg",
+            "text": "Креветки, <br/>шампиньоны, <br/>ананас, <br/>моцарелла, <br/>соус чесночный",
             "name": "Креветки с ананасами",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -183,6 +201,7 @@
         {
             "id": 18,
             "imageUrl": "https://roosters-pizza.ru/wa-data/public/shop/products/11/04/411/images/1609/1609.970.jpg",
+            "text": "Шампиньоны, <br/>зелень, <br/>маслины, <br/>моцарелла, <br/>соус чесночный",
             "name": "Лесная",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -193,6 +212,7 @@
         {
             "id": 19,
             "imageUrl": "https://roosters-pizza.ru/wa-data/public/shop/products/05/04/405/images/1579/1579.970.jpg",
+            "text": "Морской коктейль, <br/>зелень, <br/>маслины, <br/>моцарелла, <br/>соус чесночный",
             "name": "Морская",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32 ],
@@ -203,6 +223,7 @@
         {
             "id": 20,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/9ab9494fb4c84dc2a545e82e719230a4_584x584.jpeg",
+            "text": "Картофель из печи, <br/>соленые огурчики, <br/>цыпленок, <br/>соус ранч, <br/>томаты, <br/>красный лук, <br/>чеснок, <br/>моцарелла, <br/>томатный соус",
             "name": "Деревенская",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -213,6 +234,7 @@
         {
             "id": 21,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/20734006e66d427fb2cbb8fbb595b21e_584x584.jpeg",
+            "text": "Острые колбаски чоризо, <br/>соус барбекю, <br/>томаты, <br/>красный лук, <br/>моцарелла, <br/>томатный соус",
             "name": "Колбаски барбекю",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],
@@ -223,6 +245,7 @@
         {
             "id": 22,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/26e1d3debfa64ce18ce6574fd6ee9cc9_584x584.jpeg",
+            "text": "Колбаски чоризо, <br/>цыпленок, <br/>томаты, <br/>сладкий перец, <br/>лук красный, <br/>чеснок сухой, <br/>моцарелла, <br/>соус ранч, <br/>соус бургер",
             "name": "Аррива",
             "types": [ 0, 1 ],
             "sizes": [ 24, 40 ],
@@ -233,6 +256,7 @@
         {
             "id": 23,
             "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/0490a9acbf184634b155aa839faa13d4_584x584.jpeg",
+            "text": "Острые колбаски чоризо, <br/>острый перец халапеньо, <br/>соус барбекю, <br/>митболы из говядины, <br/>томаты, <br/>сладкий перец, <br/>красный лук, <br/>моцарелла, <br/>томатный соус",
             "name": "Диабло",
             "types": [ 0, 1 ],
             "sizes": [ 24, 32, 40 ],

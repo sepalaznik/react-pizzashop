@@ -3,10 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: "development",
     entry: './src/index.js',
-    output: {
-        path: '/dist',
-        filename: "main.js"
-    },
     resolve: {
         extensions: ['', '.js', '.jsx'],
     },
@@ -32,8 +28,9 @@ module.exports = {
     },
     devServer: {
         port: 3000,
+        contentBase: './public',
         watchContentBase: true,
         historyApiFallback: true
     },
-    plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
+    plugins: [new HtmlWebpackPlugin({ template: './public/index.html' })],
 }
